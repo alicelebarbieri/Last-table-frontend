@@ -1,6 +1,28 @@
-# Welcome to your Expo app 👋
+# Welcome to Last Table 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+project details(with demo video): https://www.northcoders.com/blog/last-table/
+
+full-stack mobile application that connects spontaneous diners with restaurants looking to fill last-minute cancellations. Built by the team TypeScript Titans, the app provides a win-win platform for users seeking last-minute reservations and restaurants aiming to maximise occupancy.
+
+Planned and delivered the app using Agile methodology, collaborating in daily stand-ups, peer programming, and sprints.
+## Key Features
+
+* Built with Expo and React Native for a smooth cross-platform mobile experience
+* Used Firebase for real-time data storage, authentication, and booking updates
+* Developed in TypeScript to ensure code reliability and maintainability
+* Real-time availability: Users can browse available tables instantly, filtered by cuisine or restaurant name.
+* Restaurant portal: Restaurants can upload new reservation slots in real-time and manage inventory seamlessly.
+* User interactions: View restaurant listings, filter/search, and call directly to book a table.
+* Intuitive UX: Cross-platform mobile app design using React Native and Expo for smooth navigation and fast performance.
+* Backend integration: Combined Firebase Firestore (NoSQL) with a custom Express.js API for enhanced data control and scalability.
+* Deployment: Frontend built with Expo; backend deployed via Render with live updates and CI/CD integration.
+
+## Challenges overcome
+* Transitioned from relying on Firebase’s backend to building a custom Express API for finer control.
+
+* Tackled a steep learning curve with TypeScript and React Native, gaining fluency through hands-on development.
+
+* Implemented robust code quality and version control as a team, becoming confident TypeScript developers.
 
 ## Get started
 
@@ -15,36 +37,10 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npx expo start
    ```
+3. Viewing the app
 
-In the output, you'll find options to open the app in a
+Best Viewing experience: Download the expoGO app and scan the QR code in the terminal
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Or
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Quick view: Press W to view in web browser.
